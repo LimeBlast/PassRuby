@@ -1,5 +1,9 @@
 class Kitchen
+  def initialize
+    @items = []
+  end
 
-# Enter code to make the specs pass!!!
-
+  def items
+    @tiems
+  end
 end
