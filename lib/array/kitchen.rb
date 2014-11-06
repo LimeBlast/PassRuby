@@ -22,8 +22,7 @@ class Kitchen
   end
 
   def remove_with_slice(array)
-    remove = %w(rat shoe)
-    array - remove
+    array - %w(rat shoe)
   end
 
   def make_mini_arrays(array)
@@ -35,8 +34,7 @@ class Kitchen
   end
 
   def alphabetically_backwards(array)
-    array.sort_by! { |element| element }
-    array.reverse
+    array.sort.reverse
   end
 
   def first_three(array)
